@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiment 2-C</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav id="container">
+    <h1>Experiment- 2C</h1>
+    <h4>Write HTML code to add form elements such as radio buttons, checkboxes and password. Also add submit button at last. </h4>    
+  </nav>
+
+  <form class="form_box">
+    <label for="name" class="mainlabel">Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter Name">
+
+    <label for="password" class="mainlabel">Password</label>
+    <input type="password" id="password" name="password" placeholder="Enter Password">
+
+    <label for="age" class="mainlabel"> Age    </label>
+    <div class="option">
+    <input type="radio" id="age" name="age" value="18">
+    <label for="15-18">15-18</label><br>
+    <input type="radio" id="age" name="age" value="21">
+    <label for="19-21">19-21</label><br>
+    <input type="radio" id="age" name="age" value="24">
+    <label for="22-24">22-24</label><br>
+  </div>
+    <label for="subject" class="mainlabel">Subjects</label>
+    <div class="option">
+    <input type="checkbox" id="maths" name="maths" vlaue="maths">
+    <label for="maths">Maths</label><br>
+    <input type="checkbox" id="science" name="science" value="science">
+    <label for="science">Science</label><br>
+    <input type="checkbox" id="literature" name="literature" value="literature">
+    <label for="literature">Literature</label>
+  </div>
+  <br>
+  <input type="submit" id="submit_button">
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  border:0;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: bisque;
+  border:0px;
+}
+
+
+.container{
+  height:max-content;
+  width: 100%;
+  background-color: aliceblue;  
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px black, 2px 2px gray;
+}
+
+.container h1{
+  padding: 5px;
+  font-size: 55px;
+  color: brown;
+}
+
+.container h4{
+  padding: 5px;
+  color: brown;
+  font-size: 25px;
+}
+
+form{
+  width: max-content;
+  height: max-content;
+  padding: 20px;
+  background-color: beige;
+  margin: auto;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#submit{
+  color: aqua;
+  background-color: brown;
+  border-radius: 30px;
+}
+input{
+  padding: 10px;
+  margin: 10px;
+}

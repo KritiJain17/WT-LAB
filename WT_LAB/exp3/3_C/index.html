@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiment 3-C</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="container">
+    <h1>Experiment- 3C</h1>
+    <h4>Create a simple form in HTML. Put validation on values entered by the user.</h4>    
+  </nav>
+
+  <form name="registration_form" onsubmit="validation()">
+    <h1>Register Here!</h1>
+    <h4>Name: <input type="text" name="Name"/></h4>
+    <h4>Email: <input type="text" name="Email"/></h4>
+    <h4>Phone number: <input type="text" name="Phone number"/></h4>
+    <input type="submit" value="Submit" name="Submit" id="submit"/>
+  </form>
+  </body>
+
+  <script>
+
+    function validation(){
+
+      var name = document.forms["registration_form"]["Name"];
+    var email = document.forms["registration_form"]["Email"];
+    var number = document.forms["registration_form"]["Phone number"];
+
+    if(name.value==""){
+      window.alert("Name field is blank");
+    }
+
+    if(email.value==""){
+      window.alert("Email field is blank");
+    }
+    if(number.value==""){
+      window.alert("Phone Number field is blank");
+    }
+    }
+
+  </script>
+</html>
+

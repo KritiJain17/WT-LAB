@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiment 3-B</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="container">
+    <h1>Experiment- 3B</h1>
+    <h4>Write a program to display alert box after 5 seconds when the button is clicked.</h4>    
+  </nav>
+
+  <div class="alert">
+    <button onclick="Alerter()">Click Me</button>
+    <p id="countdown"></p>
+  </div>
+  
+</body>
+
+
+<script>
+ 
+  function Alerter(){
+    setTimeout(function(){
+      alert("An alert after 5 second!");
+    },5000);
+
+    let i = 1;
+    let countdown = setInterval(function(){
+      document.querySelector("#countdown").innerHTML = i;
+      if(i==5){
+        clearInterval(countdown);
+      }
+      i++;
+    },1000);
+  }
+
+</script>
+</html>
+

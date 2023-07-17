@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+
+  margin: 0px;
+  padding: 0px;
+  background-color: bisque;
+
+}
+
+
+.container{
+  height:max-content;
+  width: 100%;
+  background-color: aliceblue;  
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px black, 2px 2px gray;
+}
+
+.container h1{
+  padding: 5px;
+  font-size: 55px;
+  color: brown;
+}
+
+.container h4{
+  padding: 5px;
+  color: brown;
+  font-size: 25px;
+}
+
+.con_1{
+  margin: 20px;
+  padding: 10px;
+}
+
+.heading{
+  text-decoration:none;
+  color: brown;
+}
+
+.text_style{
+  font-size: large;
+  margin-top: 20px;
+}

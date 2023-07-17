@@ -1,0 +1,74 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+
+  margin: 0px;
+  padding: 0px;
+  background-color: bisque;
+
+}
+
+
+.container{
+  height:max-content;
+  width: 100%;
+  background-color: aliceblue;  
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px black, 2px 2px gray;
+}
+
+.container h1{
+  padding: 5px;
+  font-size: 60px;
+  color: brown;
+}
+
+.container h4{
+  padding: 5px;
+  color: brown;
+  font-size: 25px;
+}
+
+.resume_data{
+
+}
+
+.image_container{
+  display: flex;
+}
+
+.image{
+  width: 200px;
+  height: 220px;
+  border-radius: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.Name{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+  color: rgba(180, 32, 254, 0.501);
+
+}
+
+.category{
+  margin: 30px;
+  padding: 20px;
+}
+
+.category h1{
+  margin: 10px;
+  margin-left: 0;
+}
+ .category li{
+  list-style:square;
+  margin: 3px;
+  padding: 2px;
+ }
+

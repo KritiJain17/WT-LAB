@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+
+  margin: 0px;
+  padding: 0px;
+  background-color: blueviolet;
+}
+
+
+#container{
+  height:max-content;
+  width: 100%;
+  background-color: aliceblue;  
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px black, 2px 2px gray;
+}
+
+#container h1{
+  padding: 5px;
+  font-size: 55px;
+  color: brown;
+}
+
+#container h4{
+  padding: 5px;
+  color: brown;
+  font-size: 25px;
+}
+
+.btn{
+  position: relative;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+#back{
+  position: absolute;
+  right: 20px;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 30px;
+  margin-bottom: 100px;
+}
+
+
+#come_here{
+  width: 70%;
+  margin: auto;
+  padding: 40px;
+  background-color: bisque;
+  margin-top: 20px;
+  color: blueviolet;
+}
